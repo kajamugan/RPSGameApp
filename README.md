@@ -4,6 +4,9 @@ This is a RPS Game application with code uses JavaScript functions and DOM manip
 
 totalScore: An object to track scores, initially set to { computerScore: 0, playerScore: 0 }.
 rpsChoices: An array containing the possible choices: Rock, Paper, and Scissors.
+
+
+
 2. Functions:
 
 getComputerChoice():
@@ -26,6 +29,8 @@ Attaches a click event to the "End Game" button, calling endGame().
 endGame(totalScore):
 Resets the scores to 0.
 Clears the HTML elements displaying scores, choices, and results.
+
+
 3. Game Flow:
 
 The playGame() function starts the game.
